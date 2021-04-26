@@ -12,7 +12,7 @@ import os
 import datetime
 
 #API and CX keys used to run google image search
-gis = GoogleImagesSearch('AIzaSyBaSqY7t3aM1v07xhXTAx6WWkD6NTmlz8Q', '667a3b98a113c6cfb')
+gis = GoogleImagesSearch('API', 'CX')
 
 #Deletes images that do not match the face of the target
 def deleteImg(knownFace, wrongImages):
